@@ -1,0 +1,29 @@
+
+
+.header-cont0{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  border-bottom: solid 1px var(--grey);
+  color: var(--blue);
+  font-size: 40px;
+  width: 100%;
+}
+
+.header-cont0 p:last-child{
+  margin-right: 30px;
+}
+
+.header-cont1{
+  display: flex;  
+  align-items: center;
+  margin-left: 30px;
+  gap: 30px;
+}
+
+.header-cont1 p:last-child{
+  color: var(--black);
+  font-size: 30px;
+}
+

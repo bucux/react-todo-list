@@ -1,0 +1,29 @@
+
+
+:root{
+  --blue: #5C48D3;
+  --white: white;
+  --light-blue: rgb(239, 241, 255);
+  --grey: grey;
+  --black: black;
+}
+
+.dark{
+  --blue: #a09ac4;
+  --white: rgb(0, 0, 0);
+  --light-blue: rgb(0, 11, 96);
+  --grey: grey;
+  --black: rgb(255, 255, 255);
+}
+
+strong{
+  font-weight: 800;
+}
+
+html, body{
+  height: 100%;
+}
+
+#root{
+  height: 100%;
+}

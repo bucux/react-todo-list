@@ -1,0 +1,44 @@
+
+.control-cont0{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+#saisie{
+  height: 35px;
+  background-color: var(--light-blue);
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 0 10px;
+  width: 300px;
+  border-color: var(--blue);
+  color: var(--black);
+}
+
+.control-cont0 button{
+  height: 40px;
+  border-style: none;
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#bouton-add{
+  width: 80px;
+}
+
+#bouton-search{
+  width: 50px;
+}
+
+.control-cont0 .disabled{
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--blue);
+  background-color: var(--white);
+  color: var(--grey);
+}

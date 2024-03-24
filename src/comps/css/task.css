@@ -1,0 +1,38 @@
+
+.task-cont0{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.task-cont0 button{
+  color: var(--blue);
+}
+
+.task-cont1, .task-cont2{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.task-description{
+  font-weight: 800;
+  color: var(--black);
+}
+
+.task-date{
+  color: var(--black);
+  font-style: italic;
+}
+
+@media (max-width: 800px){
+  .task-date{
+    display: none;
+  }
+}
+
+.raye{
+  text-decoration: line-through;
+}
